@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: lightgrey;
+/* header */
+header {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
 }
+
+img {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+}
+
+
+main {
+    background-color: grey;
+}
+
