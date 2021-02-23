@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Toboolist</title>
@@ -15,49 +15,70 @@
     
     <main>
         <div class="wrapper">
-            <nav>
-                <button>Add Task</button>
-                <button>Add Section</button>
-            </nav>
-            <section>
-                <!-- Prima ul -->
-              <ul>
-                  <li>
-                    New Task
-                        <ul>
-                            <li>
-                                Quarterly Newsletter
-                            </li>
-                        </ul>
-                  </li>
-              </ul>
-              <!-- Seconda ul -->
-              <ul>
-                  <li>
-                    Today
-                        <ul>
-                            <li>Recruiting blog post</li>
-                            <li>Mobile app launch</li>
-                            <li>Interview John H.</li>
-                            <li>Summit update to mibile storefronts</li>
-                        </ul>
-                  </li>
-              </ul>
-              <!-- terza -->
-              <ul>
-                  <li>
-                    Upcoming
-                        <ul>
-                            <li>Schedule meeting with Alex</li>
-                            <li>Homepage refresh</li>
-                            <li>Onboard new Sales team members</li>
-                            <li>Review editorial calendar</li>
-                        </ul>
-                  </li>
-              </ul>
-          
-            </section>
+            <main>
+                <nav>
+                    <button>Add Task</button>
+                    <button>Add Section</button>
+                </nav>
+                <section>
+                    <!-- prima ul -->
+                    <ul class="main-list">
+                       <li>New Task</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Quarterly Newsletter
+                            <span class="task editorial">Editorial</span>
+                        </li>
+                    </ul>
+                    <!-- seconda ul -->
+                    <ul class="main-list">
+                        <li>Today</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Recruiting blog post
+                            <span class="task editorial">Editorial</span>
+                        </li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Mobile app launch
+                            <span class="task" id="Q1">Q1 Goals</span>
+                        </li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>interview John H.
+                            <span class="task" id="recruiting">Recruiting</span>
+                        </li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Summit update to mobile storefronts
+                            <span class="task" id="mobile">Mobile</span>
+                        </li>
+                    </ul>
+                    <!-- terza ul -->
+                    <ul class="main-list">
+                        <li>Upcoming</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Homepage refresh
+                            <span class="task" id="website">Website</span>
+                        </li>
+                    </ul>
+                    <ul class="sublist">
+                       <li>Onboard new Sales team members
+                        <span class="task" id="sales">Sales</span>
+                       </li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Schedule Meeting with Alex</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li>Review editorial calendar
+                            <span class="task editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </section>
+            </main>
         </div>
-    </main>
+            
 </body>
 </html>
