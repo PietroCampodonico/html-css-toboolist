@@ -11,11 +11,9 @@ body {
 
 header {
     background-color: white;
-}
-
-/* header */
-header {
-    padding: 10px;
+    vertical-align: middle;
+    padding: 10px 20px;
+    
 }
 
 img {
@@ -27,16 +25,16 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     vertical-align: middle;
-
 }
 
-/* main {
-    background-color: tomato;
-} */
 .wrapper {
     width: 50vw;
     margin: auto;
     background-color: white;
+}
+
+nav, section {
+    padding-left: 35px;
 }
 
 main {
@@ -53,7 +51,6 @@ nav :first-child {
     width: 70px;
     height: 30px;
     margin-top: 15px;
-    margin-left: 35px;
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
@@ -73,27 +70,54 @@ nav :last-child {
     color: lightgrey;
 }
 
-/* main {
-    background-color: lightgrey;
-} */
-
-
-
 section {
-    margin-left: 30px;
-    padding: 35px;
-    border-radius: 20px;
+    padding-left: 35px;
+    border-radius: 50%;
+}
 
+ul {
+    list-style: none;
+}
+
+.main-list {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
 }
 
 .sublist {
     padding: 10px 0;
 }
 
-.main-list {
-    font-weight: bold;
-    font-size: 25px;;
+.sublist#last-item {
+    padding-bottom:30px;
 }
+
+.tick {
+    font-size: 10px;
+    color: limegreen;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5px;
+    width: 5px; 
+    height: 5px;
+    padding: 3px;
+    border: 1px solid limegreen;
+    border-radius: 50%;
+  }
+
+  .cross {
+    font-size: 10px;
+    color: red;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5px;
+    width: 5px; 
+    height: 5px;
+    padding: 3px;
+    border: 1px solid red;
+    border-radius: 50%;
+  }
 
 .task {
     border-radius: 10px;
@@ -102,7 +126,6 @@ section {
     height: 30px;
     color: white;
     font-size: 12px;
-
 }
 
 .task.editorial {

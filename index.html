@@ -15,70 +15,106 @@
     
     <main>
         <div class="wrapper">
-            <main>
-                <nav>
-                    <button>Add Task</button>
-                    <button>Add Section</button>
-                </nav>
-                <section>
-                    <!-- prima ul -->
-                    <ul class="main-list">
-                       <li>New Task</li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Quarterly Newsletter
-                            <span class="task editorial">Editorial</span>
-                        </li>
-                    </ul>
-                    <!-- seconda ul -->
-                    <ul class="main-list">
-                        <li>Today</li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Recruiting blog post
-                            <span class="task editorial">Editorial</span>
-                        </li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Mobile app launch
-                            <span class="task" id="Q1">Q1 Goals</span>
-                        </li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>interview John H.
-                            <span class="task" id="recruiting">Recruiting</span>
-                        </li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Summit update to mobile storefronts
-                            <span class="task" id="mobile">Mobile</span>
-                        </li>
-                    </ul>
-                    <!-- terza ul -->
-                    <ul class="main-list">
-                        <li>Upcoming</li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Homepage refresh
-                            <span class="task" id="website">Website</span>
-                        </li>
-                    </ul>
-                    <ul class="sublist">
-                       <li>Onboard new Sales team members
-                        <span class="task" id="sales">Sales</span>
-                       </li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Schedule Meeting with Alex</li>
-                    </ul>
-                    <ul class="sublist">
-                        <li>Review editorial calendar
-                            <span class="task editorial">Editorial</span>
-                        </li>
-                    </ul>
-                </section>
-            </main>
-        </div>
+            <nav>
+                <button>Add Task</button>
+                <button>Add Section</button>
+            </nav>
+            <section>
+                <!-- prima ul -->
+                <ul class="main-list">
+                    <li>
+                        <span>&#9662;</span>
+                        New Task
+                    </li>    
+                </ul>    
+                <ul class="sublist">
+                    <li>
+                        <span class="cross">&#10005;</span>
+                        Quarterly Newsletter
+                        <span class="task editorial">Editorial</span>
+                    </li>
+                </ul>
+                    
+                <!-- seconda ul -->
+                <ul class="main-list">
+                    <li>
+                        <span>&#9662;</span>
+                        Today
+                    </li>
+                </ul>
+                <ul class="sublist">
+                    <li >
+                        <span class="tick">&#10003;</span>
+                        Recruiting blog post
+                        <span class="task editorial">Editorial</span>
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="tick">&#10003;</span>
+                        Mobile app launch
+                        <span class="task" id="Q1">Q1 Goals</span>
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="tick">&#10005;</span>
+                        Interview John H.
+                        <span class="task" id="recruiting">Recruiting</span>
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="tick">&#10003;</span>
+                        Summit update to mobile storefronts
+                        <span class="task" id="mobile">Mobile</span>
+                    </li>
+                </ul>
+
+                <!-- terza ul -->
+                <ul class="main-list">
+                    <li>
+                        <span>&#9662;</span>
+                        Upcoming
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="tick">&#10003;</span>
+                        Homepage refresh
+                        <span class="task" id="website">Website</span>
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="tick">&#10003;</span>
+                        Onboard new Sales team members
+                    <span class="task" id="sales">Sales</span>
+                    </li>
+                </ul>
+
+                <ul class="sublist">
+                    <li>
+                        <span class="cross">&#10005;</span>
+                        Schedule Meeting with Alex</li>
+                </ul>
+
+                <ul class="sublist" id="last-item">
+                    <li>
+                        <span class="tick">&#10003;</span>
+                        Review editorial calendar
+                        <span class="task editorial">Editorial</span>
+                    </li>
+                </ul>
+            </section>
+            
+        </div> 
+    </main>   
             
 </body>
 </html>
